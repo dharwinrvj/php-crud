@@ -1,7 +1,7 @@
 <?php
 session_start(); # to initialize a session
 # init a db obj with hostname, db username, db password, db name   
-$mysqli = new mysqli('localhost', 'root', 'Localhost123@', 'phpcrud') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost', 'root', 'D123@localhost', 'phpcrud') or die(mysqli_error($mysqli));
 $name = '';
 $location = '';
 $update_rec = false;
